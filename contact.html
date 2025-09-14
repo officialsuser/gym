@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RANA FITNESS · Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="index.html" class="logo">RANA FITNESS</a></div>
+      <nav class="main-nav" id="mainNav"><ul>
+        <li><a href="index.html">होम</a></li>
+        <li><a href="about.html">हमारे बारे में</a></li>
+        <li><a href="services.html">सेवाएँ</a></li>
+        <li><a href="trainers.html">ट्रेनर्स</a></li>
+        <li><a href="gallery.html">गैलरी</a></li>
+        <li><a href="contact.html" class="active">संपर्क</a></li>
+      </ul></nav>
+      <button class="nav-toggle" id="navToggle6" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>संपर्क करें</h1>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>हमसे जुड़ें</h3>
+        <p>📍 Tanki bazar,Main Road, Your City</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@fitzone.com</p>
+        <h4>ओपनिंग घंटे</h4>
+        <p>सोम - शनि: 6:00 AM - 11:00 PM • रविवार: 7:00 AM - 9:00 PM</p>
+      </div>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">नाम</label>
+          <input id="name" name="name" type="text" placeholder="आपका नाम" required>
+        </div>
+        <div class="form-group">
+          <label for="email">ईमेल</label>
+          <input id="email" name="email" type="email" placeholder="आपका ईमेल" required>
+        </div>
+        <div class="form-group">
+          <label for="message">संदेश</label>
+          <textarea id="message" name="message" placeholder="आपका संदेश" required></textarea>
+        </div>
+        <button type="submit" class="btn">भेजें</button>
+        <p id="formMsg" class="form-msg" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>RANA FITNESS</h4>
+        <p>Modern gym • Certified trainers • Personalized approach</p>
+      </div>
+      <div>
+        <h4>तीव्र संपर्क</h4>
+        <p>📍 Tanki bazar,Main Road, Your City</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@fitzone.com</p>
+      </div>
+      <div>
+        <h4>समर्थन</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="services.html">सेवाएँ</a></li>
+          <li><a href="trainers.html">ट्रेनर्स</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span id="year6"></span> RANA FITNESS · सभी अधिकार सुरक्षित
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

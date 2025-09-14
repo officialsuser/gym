@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RANA FITNESS · Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="index.html" class="logo">RANA FITNESS</a></div>
+      <nav class="main-nav" id="mainNav"><ul>
+        <li><a href="index.html">होम</a></li>
+        <li><a href="about.html">हमारे बारे में</a></li>
+        <li><a href="services.html">सेवाएँ</a></li>
+        <li><a href="trainers.html">ट्रेनर्स</a></li>
+        <li><a href="gallery.html" class="active">गैलरी</a></li>
+        <li><a href="contact.html">संपर्क</a></li>
+      </ul></nav>
+      <button class="nav-toggle" id="navToggle5" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>गैलरी</h1>
+    <div class="gallery-grid">
+      <!-- images from unsplash -->
+      <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=60" alt="gym1" class="lightbox">
+      <img src="https://images.unsplash.com/photo-1623874106686-5be2b325c8f1?q=60&w=800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      <img src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?auto=format&fit=crop&w=800&q=60" alt="gym3" class="lightbox">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=60" alt="gym4" class="lightbox">
+      <img src="https://images.unsplash.com/photo-1620188526357-ff08e03da266?q=60&w=800&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+      <img src="https://images.unsplash.com/photo-1646495003511-5906221732be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGd5bSUyMGVxdWlwbWVudHxlbnwwfHwwfHx8MA%3D%3D">
+    </div>
+  </main>
+
+  <!-- Lightbox modal -->
+  <div id="lightboxModal" class="lightbox-modal" aria-hidden="true">
+    <span class="close-lightbox" id="closeLightbox">&times;</span>
+    <img id="lightboxImg" src="" alt="Preview">
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>RANA FITNESS</h4>
+        <p>Modern gym • Certified trainers • Personalized approach</p>
+      </div>
+      <div>
+        <h4>तीव्र संपर्क</h4>
+        <p>📍 Tanki bazar,Main Road, Your City</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@fitzone.com</p>
+      </div>
+      <div>
+        <h4>समर्थन</h4>
+        <ul class="footer-links">
+          <li><a href="about.html">हमारे बारे में</a></li>
+          <li><a href="services.html">सेवाएँ</a></li>
+          <li><a href="contact.html">संपर्क</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      © <span id="year5"></span> RANA FITNESS · सभी अधिकार सुरक्षित
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
